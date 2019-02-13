@@ -11,6 +11,7 @@ PS: This is optimal for my small laptop (1280x800) but I'm not sure it will look
 * [polybar](https://github.com/jaagr/polybar)
 * [rofi](https://github.com/DaveDavenport/rofi)
 * [fff](https://github.com/dylanaraps/fff)
+* [promptless](https://github.com/dylanaraps/promptless)
 * [ufetch](https://gitlab.com/jschx/ufetch/tree/master)
 * ncmpcpp
 * [cava](https://github.com/karlstav/cava)
