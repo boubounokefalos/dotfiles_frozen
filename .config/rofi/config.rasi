@@ -1,0 +1,12 @@
+/* Based on original work of Vahnrr >> https://gitlab.com/vahnrr/dots/blob/master/i3-laptop/rofi/config.rasi
+ * Adapted for a 1280x800 resolution screen.
+ */
+configuration {
+    font:               "Dejavu Sans 9";
+    cycle:              true;
+    hide-scrollbar:     true;
+    disable-history:    false;
+    fullscreen:         true;
+    modi:               "drun";
+    show-icons:         false;
+}
