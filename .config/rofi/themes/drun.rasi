@@ -1,0 +1,85 @@
+/* Based on original work of Vahnrr >> https://gitlab.com/vahnrr/dots/blob/master/i3-laptop/rofi/themes/drun.rasi
+ * Adapted for a 1280x800 resolution screen.
+ */
+* {
+    main-color:       #0a0b0d;
+    accent:           #2bb9b8;
+    background:       #ffffff;
+    /* Base values for all */
+    background-color: @background;
+    text-color:       @main-color;
+}
+window {
+    background-color: 		@background;
+    border:   				0;
+    padding: 				0;
+}
+mainbox {
+    border:   				0;
+    padding: 				30%;
+}
+message {
+    border:       			2px 0px 0px ;
+    border-color: 			@main-color;
+    padding: 				10 1% 10;
+}
+textbox {
+    text-color: 			@main-color;
+}
+listview {
+    fixed-height: 			0;
+    border:       			2px 0px 0px ;
+    border-color: 			@main-color;
+    spacing:      			10px;
+    padding: 				10 1% 10;
+}
+/* Input window */
+inputbar,
+prompt,
+textbox-prompt-colon,
+entry {
+    spacing:    			0;
+    background-color: @background;
+}
+inputbar {
+    children: [prompt, textbox-prompt-colon, entry];
+    spacing:    			0;
+    text-color: 			@main-color;
+    padding:    			1px ;
+}
+prompt {
+    padding: 10px 20px;
+    background-color: @accent;
+    text-color: @background;
+}
+prompt, button{
+    spacing:    			0;
+    text-color: 			@main-color;
+}
+textbox-prompt-colon {
+    expand: false;
+    str: "     ";
+    text-color: @main-color;
+    padding: 10px;
+}
+entry {
+    text-color: @main-color;
+    spacing:    			0;
+    padding: 10px 10px 10px 0px;
+}
+/* List of entries */
+element {
+    border:  				0;
+    border-radius:          5;
+    padding: 				12 25 12;
+}
+element.normal {
+    background-color: @background;
+    text-color: @main-color;
+    border-color: @background;
+}
+element.selected {
+    background-color: @main-color;
+    text-color: @background;
+    border-color: @main-color;
+}
