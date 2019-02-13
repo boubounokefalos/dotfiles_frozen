@@ -1,0 +1,37 @@
+/* Based on original work of Vahnrr >> https://gitlab.com/vahnrr/dots/blob/master/i3-laptop/rofi/themes/powermenu.rasi
+ * Adapted for a 1280x800 resolution screen.
+ */
+* {
+    main-color:       #000000;
+    background:       #00000000;
+    background-alt:   #ffffff;
+    background-light: #2bb9b8;
+    foreground:       #000000;
+    /* Base values for all */
+    background-color: @background;
+    text-color:       @foreground;
+}
+window {
+    padding: 39% 32%;
+}
+/* Input window */
+inputbar {
+    children: [];
+}
+/* List of entries top right bottom left */
+element {
+    padding: 30px -30px 20px 70px;
+    margin: 10px 10px 10px 10px;
+    border: 0px 0px 0px 0px;
+}
+element.normal {
+    background-color: @main-color;
+    text-color: @background-alt;
+    border-color: @main-color;
+}
+element.selected {
+    background-color: @background-light;
+    text-color: @main-color;
+    border-color: @main-color;
+}
+
