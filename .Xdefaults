@@ -1,0 +1,94 @@
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+
+Xft.dpi:                    96
+Xft.antialias:              false
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+!-------------------------------------------------------------------------------
+! URxvt settings
+! Colours lifted from Solarized (http://ethanschoonover.com/solarized)
+! Colors for this specific setup:
+! DaRk_dOg
+!-------------------------------------------------------------------------------
+
+!URxvt.depth:                32
+URxvt.geometry:             50x12
+URxvt.transparent:          false
+URxvt.fading:               0
+! URxvt.urgentOnBell:         true
+! URxvt.visualBell:           true
+URxvt.loginShell:           true
+URxvt.saveLines:            50
+URxvt.internalBorder:       30
+URxvt.lineSpace:            0
+
+! Fonts
+URxvt.allow_bold:           false
+URxvt*font: xft:DejaVu Sans Mono:size=9
+URxvt*boldFont: xft:Monospace:pixelsize=14
+
+! Fix font space
+URxvt*letterSpace: -1
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+! Perl extensions
+URxvt.perl-ext-common:      default,matcher
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          google-chrome-stable
+
+! Cursor
+URxvt.cursorBlink:          false
+URxvt.cursorColor:          #2bb9b8
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         false
+
+!!Source http://github.com/altercation/solarized
+
+*background: #ffffff
+*foreground: #0a0b0d
+!!*fading: 40
+*fadeColor: #000000
+*cursorColor: #2bb9b8
+*pointerColorBackground: #586e75
+*pointerColorForeground: #93a1a1
+
+!! white dark/light
+*color0: #ffffff
+*color8: #ffffff
+
+!! red dark/light
+*color1: #ededed
+*color9: #ededed
+
+!! green dark/light
+*color2: #c9e5e5
+*color10: #c9e5e5
+
+!! yellow dark/light
+*color3: #9fe7e6
+*color11: #9fe7e6
+
+!! blue dark/light
+*color4: #2bb9b8
+*color12: #2bb9b8
+
+!! magenta dark/light
+*color5: #398f8f
+*color13: #398f8f
+
+!! cyan dark/light
+*color6: #112a2a
+*color14: #112a2a
+
+!! black dark/light
+*color7: #0a0b0d
+*color15: #0a0b0d
