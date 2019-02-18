@@ -61,6 +61,9 @@ bindsym Print exec --no-startup-id scrot
 #Generate lockscreen image
 exec_always --no-startup-id /home/USERNAME/lock/make_lock_bg.sh
 
+#Launch Blurwal
+exec --no-startup-id blurwal
+
 #assign apps to workspaces
 assign [class="google-chrome"] 2
 assign [class="Google-chrome"] 2
