@@ -19,9 +19,12 @@ PS: This is optimal for my small laptop (1280x800) but I'm not sure it will look
 * [i3lock-fancier](https://github.com/SuperPrower/i3lock-fancier)
 * dunst
 * [compton(tryone fork)](https://github.com/SuperPrower/i3lock-fancier)
+* [blurwal](https://gitlab.com/BVollmerhaus/blurwal)
 
 ### UPDATE
 Since I basically use chrome, I used jaredk3nt's [startpage](https://github.com/karlstav/cava), but based more on elenapan's [configurations](https://github.com/elenapan/dotfiles/tree/master/homepages/jared-startpage-EDITED) PLUS a quick chrome theme I made out.
+### UPDATE2
+Check [blurwall!](https://gitlab.com/BVollmerhaus/blurwal) Added to the setup.
 
 ### Frozen
 
